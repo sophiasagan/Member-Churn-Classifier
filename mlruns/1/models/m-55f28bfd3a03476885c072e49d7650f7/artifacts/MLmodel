@@ -1,0 +1,23 @@
+artifact_path: file:D:/Sophia/Documents/Member Churn Classifier/mlruns/1/models/m-55f28bfd3a03476885c072e49d7650f7/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-55f28bfd3a03476885c072e49d7650f7
+model_size_bytes: 682875
+model_uuid: m-55f28bfd3a03476885c072e49d7650f7
+prompts: null
+run_id: a631128faca84855b0002013dce71c58
+utc_time_created: '2026-04-19 17:53:44.390542'
